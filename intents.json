@@ -1,0 +1,127 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-), how can I help?",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "What can you do?", "What functions are available.","What are some of your features?","Services","what Services do you provide?","services","service","How can you help?"],
+      "responses": [
+        "We do Rank Prediction , GPA conversion, provide information on colleges and lot more. What do you wish to do today?"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": ["Services","what Services do you provide?","services","service","How can you help?"],
+      "responses": [
+        "We do Rank Prediction , GPA conversion, provide information on colleges and lot more. What do you wish to do today?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "GPA",
+      "patterns": [
+        "Conversion of my GPA",
+        "What is my GPA in 4 point scale?",
+        "How to convert 10 based GPA to 4 point based GPA?",
+        "Where to convert GPA?",
+        "What is my GPA?",
+        "What is my gpa?",
+        "What is my cgpa in american based system?",
+        "GPA Converter.",
+        "GPA",
+        "CGPA"
+
+      ],
+      "responses": [
+        "We have a solution.Visit Here: <a href='www.examplelink.com'>www.examplelink.com</a>",
+        "Don't worry and let us handle. Please visit: <a href='www.examplelink.com'>www.examplelink.com</a>",
+        "Try this converter. <a href='www.examplelink.com'>www.examplelink.com</a>"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "colleges",
+      "patterns": [
+        "College information.",
+        "Imformation about colleges.",
+        "Scores for colleges.",
+        "Tell me about some colleges.",
+        "Colleges",
+        "Info on colleges"
+      ],
+      "responses": [
+        "We have a section on colleges. Please view this link: <a href='www.examplelink.com'>www.examplelink.com</a>",
+        "Please view this link: <a href='www.examplelink.com'>www.examplelink.com</a>"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Rank",
+      "patterns": [
+        "What is my rank based on my score?.",
+        "Can I determine my rank.",
+        "What is my JEE Rank?",
+        "What is my Mains Rank?",
+        "Convert my Marks to rank.",
+        "Rank based on marks",
+        "Rank Predictor"
+      ],
+      "responses": [
+        "Dont worry we can help. Please view this link: <a href='www.examplelink.com'>www.examplelink.com</a>",
+        "Enter your marks on this link : <a href='www.examplelink.com'>www.examplelink.com</a>",
+        "Yes, we can help. Please visit: <a href='www.examplelink.com'>www.examplelink.com</a>"
+      ]
+    }
+  ]
+}
